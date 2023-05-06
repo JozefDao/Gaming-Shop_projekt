@@ -12,6 +12,4 @@
             }
         }
     }
-    $db = new Database();
-    $db->conn;
 ?>

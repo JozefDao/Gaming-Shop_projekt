@@ -3,31 +3,16 @@
         public $db;
         
         function get_explore(){
-
+            include('inc/Database.php');
             $this->db = new Database();
-            $query = $this->db->conn->query("SELECT * FROM exploore");
+            $query = $this->db->conn->query("SELECT * FROM explore");
             $explore = $query->fetchAll(PDO::FETCH_OBJ);
-            print_r($explore);
-
-            /*for ($i=1;$i<=$explore_num;$i++){
-                if($i%4==1){
-                    echo '<div class="row">';
-                    echo '<div class="col-25 explore text-white text-center" id="explore-'.$i.'">';
-                    echo 'Liberty NFT Market'.$i;
-                    echo '</div>';
-                }
-                elseif($i%4==0){
-                    echo '<div class="col-25 explore text-white text-center" id="explore-'.$i.'">';
-                    echo 'Liberty NFT Market'.$i;
-                    echo '</div>';
-                    echo '</div>';
-                }
-                else{
-                    echo '<div class="col-25 explore text-white text-center" id="explore-'.$i.'">';
-                    echo 'Liberty NFT Market'.$i;
-                    echo '</div>';
-                }
-            }*/
+            return $explore;
+        }
+        function add_explore(){
+            include('inc/Database.php');
+            $this->db = new Database();
+            //$query
         }
     }
     $Explore = new Explore();

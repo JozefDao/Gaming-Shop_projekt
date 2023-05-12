@@ -36,7 +36,7 @@ include('partials/header.php');
 include('inc/Explore.php')
 ?>
   <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
+  <!--<div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
       <div class="dots">
@@ -45,7 +45,7 @@ include('inc/Explore.php')
         <span></span>
       </div>
     </div>
-  </div>
+  </div>-->
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
@@ -93,6 +93,7 @@ include('inc/Explore.php')
         <div class="row">
           <div class="col-lg-12">
             <div class="owl-features owl-carousel">
+              
                 <?php
                   $result = $Explore->get_explore();
                   for($i=0;$i<=3;$i++){

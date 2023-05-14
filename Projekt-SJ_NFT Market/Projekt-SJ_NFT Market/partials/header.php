@@ -26,9 +26,9 @@
                     <ul class="nav">
                         <li><a href="index.php" class="active">Home</a></li>
                         <li><a href="explore.php">Explore</a></li>
-                        <li><a href="details.html">Item Details</a></li>
-                        <li><a href="author.html">Author</a></li>
-                        <li><a href="create.html">Create Yours</a></li>
+                        <li><a href="details.php">Item Details</a></li>
+                        <li><a href="author.php">Author</a></li>
+                        <li><a href="create.php">Create Yours</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>

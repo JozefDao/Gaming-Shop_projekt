@@ -201,7 +201,7 @@
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="create.html">Create Your NFT Now</a>
+            <a href="create.php">Create Your NFT Now</a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -282,7 +282,7 @@
                     Ends In<br><strong>4D 08H 15M 42S</strong><br><em>(July 24th, 2022)</em>
                   </span>
                   <div class="text-button">
-                    <a href="details.html">View Item Details</a>
+                    <a href="details.php">View Item Details</a>
                   </div>
                 </div>
               </div>
@@ -306,7 +306,7 @@
                     Ends In<br><strong>2D 06H 30M 25S</strong><br><em>(July 26th, 2022)</em>
                   </span>
                   <div class="text-button">
-                    <a href="details.html">View Item Details</a>
+                    <a href="details.php">View Item Details</a>
                   </div>
                 </div>
               </div>
@@ -330,7 +330,7 @@
                     Ends In<br><strong>6D 05H 40M 50S</strong><br><em>(July 28th, 2022)</em>
                   </span>
                   <div class="text-button">
-                    <a href="details.html">View Item Details</a>
+                    <a href="details.php">View Item Details</a>
                   </div>
                 </div>
               </div>
@@ -354,7 +354,7 @@
                     Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(July 14th, 2022)</em>
                   </span>
                   <div class="text-button">
-                    <a href="details.html">View Item Details</a>
+                    <a href="details.php">View Item Details</a>
                   </div>
                 </div>
               </div>
@@ -378,7 +378,7 @@
                     Ends In<br><strong>4D 08H 32M 18S</strong><br><em>(July 16th, 2022)</em>
                   </span>
                   <div class="text-button">
-                    <a href="details.html">View Item Details</a>
+                    <a href="details.php">View Item Details</a>
                   </div>
                 </div>
               </div>
@@ -402,7 +402,7 @@
                     Ends In<br><strong>5D 10H 22M 24S</strong><br><em>(July 18th, 2022)</em>
                   </span>
                   <div class="text-button">
-                    <a href="details.html">View Item Details</a>
+                    <a href="details.php">View Item Details</a>
                   </div>
                 </div>
               </div>

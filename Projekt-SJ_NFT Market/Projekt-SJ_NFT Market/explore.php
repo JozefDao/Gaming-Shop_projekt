@@ -140,7 +140,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -227,7 +227,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -256,7 +256,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -285,7 +285,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>
@@ -314,7 +314,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="details.html">View Details</a>
+                  <a href="details.php">View Details</a>
                 </div>
               </div>
             </div>

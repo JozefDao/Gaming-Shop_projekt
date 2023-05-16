@@ -12,6 +12,23 @@
 <!-- ***** Preloader End ***** -->
 
 <!-- ***** Header Area Start ***** -->
+<?php
+// Získanie názvu aktuálnej stránky
+$currentFile = $_SERVER["PHP_SELF"];
+$currentPage = basename($currentFile);
+
+// Funkcia pre pridanie triedy "active" k aktuálnej stránke
+function echoActiveClassIfRequestMatches($requestUri)
+{
+    $currentFile = $_SERVER["PHP_SELF"];
+    $currentPage = basename($currentFile);
+
+    if ($currentPage == $requestUri) {
+        echo 'class="active"';
+    }
+}
+?>
+
 <header class="header-area header-sticky">
     <div class="container">
         <div class="row">
@@ -24,11 +41,11 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.php" class="active">Home</a></li>
-                        <li><a href="explore.php">Explore</a></li>
-                        <li><a href="details.php">Item Details</a></li>
-                        <li><a href="author.php">Author</a></li>
-                        <li><a href="create.php">Create Yours</a></li>
+                        <li><a href="index.php" <?php echoActiveClassIfRequestMatches("index.php"); ?>>Home</a></li>
+                        <li><a href="explore.php" <?php echoActiveClassIfRequestMatches("explore.php"); ?>>Explore</a></li>
+                        <li><a href="details.php" <?php echoActiveClassIfRequestMatches("details.php"); ?>>Item Details</a></li>
+                        <li><a href="author.php" <?php echoActiveClassIfRequestMatches("author.php"); ?>>Author</a></li>
+                        <li><a href="create.php" <?php echoActiveClassIfRequestMatches("create.php"); ?>>Create Yours</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>

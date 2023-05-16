@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <?php
-  include_once('partials/head.php');
-  ?>
-</head>
+
+<?php
+include_once('partials/head.php');
+?>
 
 <body>
   <?php

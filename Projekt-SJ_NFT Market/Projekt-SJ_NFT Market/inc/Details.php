@@ -70,7 +70,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $number_of_nfts = $_POST["number_of_nfts"];
     $details->update_details($owner, $wallet_balance, $number_of_nfts);
 } else {
-    // Predvolené hodnoty
     $owner = 'John';
     $wallet_balance = 1000;
     $number_of_nfts = 5;

@@ -13,11 +13,11 @@
 
 <!-- ***** Header Area Start ***** -->
 <?php
-// Získanie názvu aktuálnej stránky
+
 $currentFile = $_SERVER["PHP_SELF"];
 $currentPage = basename($currentFile);
 
-// Funkcia pre pridanie triedy "active" k aktuálnej stránke
+
 function echoActiveClassIfRequestMatches($requestUri)
 {
     $currentFile = $_SERVER["PHP_SELF"];

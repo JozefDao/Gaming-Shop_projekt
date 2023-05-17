@@ -16,7 +16,7 @@ class Explore {
         $query = "INSERT INTO explore (user, amount) VALUES ('$user', '$amount')";
         $result = $this->db->conn->exec($query);
         if($result){
-            // Údaje sa nevypisujú
+
         } else {
             echo "Chyba pri vkladaní údajov";
         }
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $Explore->add_explore($user, $amount);
 
-    // Presmerovanie na tú istú stránku
+    
     header("Location: " . $_SERVER['PHP_SELF']);
     exit();
 }

@@ -1,7 +1,7 @@
 <?php
 require_once('Database.php');
 
-// Získanie všetkých autorov
+
 function getAuthors()
 {
     global $db;
@@ -10,7 +10,7 @@ function getAuthors()
     return $authors;
 }
 
-// Odstránenie autora
+
 function deleteAuthor($authorId)
 {
     global $db;
@@ -19,16 +19,16 @@ function deleteAuthor($authorId)
     $query->execute();
 }
 
-// Pripojenie k databáze
+
 $db = new Database();
 
-// Spracovanie odstránenia autora
+
 if (isset($_POST['delete'])) {
     $authorId = $_POST['authorId'];
     deleteAuthor($authorId);
 }
 
-// Získanie všetkých autorov
+
 $authors = getAuthors();
 ?>
 
@@ -50,6 +50,7 @@ $authors = getAuthors();
         padding: 8px;
         text-align: left;
         border: 2px solid #e0e0e0;
+        color: black;
     }
 
     tr:hover {
@@ -58,7 +59,6 @@ $authors = getAuthors();
 
     th {
         background-color: #90caf9;
-        color: #333333;
     }
 
     .delete-button {
